@@ -1,0 +1,94 @@
+.home {
+  /* background-color: black; */
+  color: white;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.home_left {
+  /* background-color: beige; */
+  width: 40vw;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+
+.home_right {
+  /* background-color: rgb(25, 9, 36); */
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+.plan_wat {
+  width: 400px;
+}
+
+.home_right_title {
+  /* Geoportal */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 68px;
+  line-height: 115px;
+  /* align-items: ; */
+
+  color: #000000;
+}
+.home_right_subtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+.home_right_btn {
+  font-size: 18px;
+  width: 250px;
+  height: 80px;
+  left: 1358px;
+  margin: 10vh 0;
+  background-color: rgba(39, 108, 211, 0.5);
+  border-color: transparent;
+  border-radius: 5px;
+
+  color: #fff;
+}
+.home_right_btn:hover {
+  background-color: #fff;
+  color: #fff;
+  border-color: blue;
+}
+.home_top_about {
+  font-style: normal;
+  font-size: 20px;
+  position: absolute;
+
+  color: #4d4a4a;
+}
+.home_top {
+  min-height: 15vh;
+  background-color: aqua;
+}
+.home.bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 1000px) {
+  * {
+    background-color: blue;
+  }
+  .home_bottom {
+    flex-direction: column;
+  }
+  .plan_wat {
+    width: 90vw;
+    margin: 0 10vw;
+  }
+}
