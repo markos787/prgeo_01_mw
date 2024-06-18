@@ -7,7 +7,9 @@ function Home({ text }) {
   return (
     <div className="home">
       <div className="home_top">
-        <div className="home_top_about">O projekcies</div>
+        <Link to='about'>
+          <div className="home_top_about">O projekcie</div>
+        </Link>
       </div>
       <div className="home_botton">
         <div className="home_left">
