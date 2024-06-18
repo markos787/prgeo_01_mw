@@ -37,6 +37,9 @@ function Map() {
           // console.log(dane);
           // console.log(dane.data.features[0].properties["jpt_nazwa_"]);
           setWojewodztwa(dane.data);
+        })
+        .catch((error) => {
+          console.log(error);
         });
     };
     getData();
